@@ -4,6 +4,13 @@ body nav#navbar {
 	top: 0px;
 }
 
+nav img#nav-logo-img {
+	width: 45px;
+	height: 55px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
 section#home {
 	background: transparent url("background.jpg") center center no-repeat;
 	background-size: cover;
@@ -14,7 +21,7 @@ section#home {
 
 section#home #event-title {
 	margin: 0px;
-	padding-top: 100px;
+	padding-top: 8%;
 	color: white;
 	font-weight: bold;
 	font-size: 60px;
@@ -51,6 +58,10 @@ section#theme {
 section#theme #theme-info {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+section#theme p {
+	font-size: 17px;
 }
 
 section#speakers #speakers-info {
