@@ -87,7 +87,7 @@ section#sponsors #sponsors-info {
 	padding-bottom: 50px;
 }
 
-.sponsor-logo {
+.sponsor {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -95,7 +95,7 @@ section#sponsors #sponsors-info {
 	width: 100%;
 }
 
-.sponsor-logo.title-sponsor {
+.sponsor.title-sponsor {
 	margin-top: 0px;
 	margin-bottom: 30px;
 }
