@@ -1,0 +1,171 @@
+html {
+	font-family: Arial, sans-serif;
+}
+
+body nav#navbar {
+	background-color: rgba(0, 1, 2, 0.9);
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+}
+
+nav img#nav-logo-img {
+	width: 45px;
+	height: 55px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+section#home {
+	background: transparent url("background.jpg") center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+section#home #event-title {
+	margin: 0px;
+	padding-top: 15%;
+	color: rgb(230, 192, 36);
+	font-weight: bold;
+	font-size: 60px;
+}
+
+section#home .event-subtitle {
+	margin-top: 20px;
+	color: rgb(230, 192, 36);
+}
+
+section#home #register-button {
+	margin-top: 20px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 4px solid white;
+	font-size: 20px;
+	line-height: 48px;
+}
+
+section#about #about-info {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section#about p {
+	font-size: 17px;
+}
+
+section#theme {
+	background-color: rgb(0, 1, 2);
+	color: white;
+}
+
+section#theme #theme-info {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section#theme p {
+	font-size: 17px;
+}
+
+section#speakers #speakers-info {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section#speakers .speaker-col {
+	background-color: rgb(0, 1, 2);
+	padding: 10px;
+	color: white;
+	margin: 10px;
+	height: 270px;
+}
+
+section#sponsors #sponsors-info {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.sponsor-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.sponsor-logo.title-sponsor {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+section#faq {
+	background-color: rgb(0, 1, 2);
+}
+
+section#faq #faq-info {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section#faq h3 {
+	color: white;
+}
+
+section#faq p {
+	background-color: white;
+}
+
+section#filler {
+	height: 6px;
+	background-color: rgb(0, 1, 2);
+}
+
+section#getInvolved {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.get-involved-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section#getInvolved div.get-involved-section {
+	text-align: center;
+	padding: 0px 30px;
+}
+
+div.get-involved-section p {
+	font-size: 18px;
+}
+
+a.get-involved-button {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: rgb(230, 192, 36);
+	background-color: rgb(0, 1, 2);
+	border: 4px solid rgb(0, 1, 2);
+	font-size: 20px;
+	line-height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.get-involved-button:hover {
+	color: rgb(0, 1, 2);
+	background-color: rgb(230, 192, 36);
+	border: 4px solid rgb(0, 1, 2);
+}
+
+footer#footer {
+	background-color: rgb(0, 1, 2);
+	color: #D0D0D0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+footer#footer p {
+	margin: 0px;
+}
