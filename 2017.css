@@ -10,10 +10,18 @@ body nav#navbar {
 }
 
 nav img#nav-logo-img {
-	width: 45px;
+	width: 55px;
 	height: 55px;
 	padding-left: 5px;
 	padding-top: 5px;
+}
+
+nav i.hamburger-icon {
+	color: rgb(230, 192, 36);
+}
+
+nav ul.hide-on-med-and-down a {
+	color: rgb(230, 192, 36);
 }
 
 section#home {
