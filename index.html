@@ -14,10 +14,12 @@
 	<link rel="stylesheet" type="text/css" href="2017.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 </head>
 <body>
 	<nav id="navbar">
-	    <div class="nav-wrapper">
+		<div class="nav-wrapper">
 			<a href="#home-link" class="brand-logo"><img src="2017-logo.png" id="nav-logo-img"></a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons hamburger-icon">menu</i></a>
 			<ul class="right hide-on-med-and-down">
@@ -38,8 +40,9 @@
 				<li><a href="#sponsors-link">Sponsors</a></li>
 				<li><a href="#get-involved-link">Sign Up</a></li>
 			</ul>
-	    </div>
-	  </nav>
+		</div>
+	</nav>
+	<a name="home-link"></a>
 	<section id="home">
 
 	</section>
@@ -48,7 +51,7 @@
 		<div id="about-info" class="container">
 			<h3>What is IAW?</h3>
 			<p>Islam Awareness Week (IAW) is an annual initiative organized by the Muslim Students' Association geared towards breaking stereotypes about Islam and Muslims. It attempts to create a safe and engaging platform where Muslims and people of other faiths or none can interact with each other and engage in fruitful dialogue about matters that concern both. It also provides opportunities for people to meet with Muslim scholars, listen to their lectures, and ask them questions. Additionally, IAW provides Muslim students the opportunity to represent their faith on campus, bring to the forefront challenges facing them specifically, and to speak about what it means for them to be Canadian Muslims. At the end of the day, the IAW team aims to provide an inspirational retreat where one can question their own spirituality and broaden their understanding of Islam.</p>
-			<p>Over the three days of IAW there will be interactive booths, creative displays, educational literature, and free activities such as Henna booths, Photo booths, a café style myth buster’s discussion and trivia. This year, we decided to put emphasis on engaging the community with activities that occur throughout the day in tandem with our educational booths. Students are free to come discuss any questions they have about Islam, and we will serve food and refreshments to encourage greater participation.</p>
+			<p>Over the three days of IAW there will be interactive booths, creative displays, educational literature, and free activities such as Henna booths, Photo booths, a café style myth buster's discussion and trivia. This year, we decided to put emphasis on engaging the community with activities that occur throughout the day in tandem with our educational booths. Students are free to come discuss any questions they have about Islam, and we will serve food and refreshments to encourage greater participation.</p>
 			<p>Every night a special event will be held. This includes lectures from Muslims of different backgrounds and walks of life and Islamic Scholars. We will be having an arts night, a Multi-Faith panel, as well as a movie screening. We are trying to promote our Muslim students by displaying their artwork and talents. Additionally, we want to connect the community of Muslims and people of other faiths to authentic Islamic scholarship.</p>
 		</div>
 	</section>
@@ -56,7 +59,7 @@
 		<a name="theme-link"></a>
 		<div id="theme-info" class="container">
 			<h3>Our theme this year!</h3>
-			<p>The theme of this years Islam Awareness Week is "Mercy." Our Prophet Muhammad (saw) is described by God as a "Mercy to the worlds." As Muslims who walk in his footsteps, it is imperative to follow his call to Mercy – something present in each intricate aspect of our tradition. This year, we hope to emphasize on this theme in our booths. Some key booths include talking about the life of Prophet Muhammad (saw), and his extraordinary character. We have a booth discussing the importance of humanitarian values in Islam, whether it’s the preservation and sanctity of life or about protecting animals and the environment. At the same time, there are some aspects in which the concept of Mercy is not obvious which we hope to explore. This will be the pretext of some booths, including that of Islamophobia or on the hijab. Finally, as our religion is one that primarily calls to monotheism, we have included a booth regarding belief in God in Islam. Concurrent to these booths, we have planned some interesting activities, like trivia or a "Myth Busters Café" to engage and challenge the overall campus community to think deeply, and appreciate the intricacies of the Islamic tradition. We hope IAW 2017 can help foster mutual respect, understanding and empathy in our community.</p>
+			<p>The theme of this years Islam Awareness Week is "Mercy." Our Prophet Muhammad (saw) is described by God as a "Mercy to the worlds." As Muslims who walk in his footsteps, it is imperative to follow his call to Mercy - something present in each intricate aspect of our tradition. This year, we hope to emphasize on this theme in our booths. Some key booths include talking about the life of Prophet Muhammad (saw), and his extraordinary character. We have a booth discussing the importance of humanitarian values in Islam, whether it's the preservation and sanctity of life or about protecting animals and the environment. At the same time, there are some aspects in which the concept of Mercy is not obvious which we hope to explore. This will be the pretext of some booths, including that of Islamophobia or on the hijab. Finally, as our religion is one that primarily calls to monotheism, we have included a booth regarding belief in God in Islam. Concurrent to these booths, we have planned some interesting activities, like trivia or a "Myth Busters Café" to engage and challenge the overall campus community to think deeply, and appreciate the intricacies of the Islamic tradition. We hope IAW 2017 can help foster mutual respect, understanding and empathy in our community.</p>
 		</div>
 	</section>
 	<section id="speakers">
@@ -155,9 +158,9 @@
 		</div>
 	</footer>
 	<script type="text/javascript">
-		$(document).ready(function(){
-		    $(".collapsible").collapsible();
-		    $(".button-collapse").sideNav({
+		$(document).ready(function() {
+			$(".collapsible").collapsible();
+			$(".button-collapse").sideNav({
 				closeOnClick: true
 			});
 
@@ -165,8 +168,8 @@
 			$("#navbar").hide();
 
 			// fade in .navbar
-			$(function () {
-				$(window).scroll(function () {
+			$(function() {
+				$(window).scroll(function() {
 					// set distance user needs to scroll before we start fadeIn
 					if ($(this).scrollTop() > 80) {
 						$('#navbar').fadeIn();
